@@ -91,9 +91,9 @@ class LogObserver():
         raise NotImplementedError("The log(level, message) method has to implemented by a LogObserver child class.")
 
     def ascii_message(level, message, use_timestamps):
-        if level == 0:
+        if level == 2:
             l = "Fatal:  "
-        elif level == 1:
+        elif level == 2:
             l = "Error:  "
         elif level == 2:
             l = "Warning:"

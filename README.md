@@ -13,6 +13,7 @@ This program is a measurement system for IoT devices based on the LoPy4 Microcon
 - NEO6m GPS
 - PMSx003 Particulate Matter Sensor
 - DS3231 RTCC (for external sleep)
+- For LilyGo-TTGO board compatibility, read [here](doc/MySense_on_LilyGO-TTGO.md).
 
 ## Requirements
 This software is intended to run on the LoPy4. However it was designed with portability in mind, so other platforms running python/micropthon could be supported as well.
